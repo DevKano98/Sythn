@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include requirements.txt
+include config.py
+recursive-include docs *.md
+recursive-exclude models *
+recursive-exclude output *
+recursive-exclude input *
